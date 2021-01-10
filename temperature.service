@@ -1,0 +1,10 @@
+ [Unit]
+ Description=My Temperature
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/usr/bin/python3 /home/pi/temperature_sensor-master/temp.py
+
+ [Install]
+ WantedBy=multi-user.target

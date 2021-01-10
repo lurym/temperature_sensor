@@ -1,5 +1,5 @@
 #!/bin/sh
 sleep 20
 cd /home/pi/
-sudo python temp.py
+sudo python3 temp.py
 cd /
